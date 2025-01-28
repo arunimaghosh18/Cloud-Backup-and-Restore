@@ -26,21 +26,24 @@ This project is a cloud-based file backup and restore application designed for s
    Set up IAM roles for secure access (infrastructure/iam_roles.md)
 
 3. Install Backend Dependencies
+   ```bash
    cd backend
    npm install
 
-5. Start the Backend Server
+4. Start the Backend Server
+   ```bash
    node app.js
-6. Run the Frontend
+5. Run the Frontend
+   ```bash
    Open frontend/index.html in a browser for local use.
    Alternatively, host the frontend on a web server for broader access.
 
 
 Results
-The system successfully:
-Uploads files to an S3 bucket.
-Retrieves the file list stored in the bucket.
-Allows secure file downloads.
-The application is built on a scalable and secure infrastructure, leveraging AWS services for high reliability in cloud-native applications.
+   The system successfully:
+   Uploads files to an S3 bucket.
+   Retrieves the file list stored in the bucket.
+   Allows secure file downloads.
+   The application is built on a scalable and secure infrastructure, leveraging AWS services for high reliability in cloud-native applications.
 
    
